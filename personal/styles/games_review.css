@@ -183,7 +183,7 @@ div#rdd2 {
 }
 
 img#eldenring {
-
+  padding: 10px;
   border-radius: 10px;
   background: linear-gradient(#377771,#91a768);
   grid-column-start: 1;
@@ -193,6 +193,7 @@ img#eldenring {
 }
 
 img#haloinfinite {
+  padding: 10px;
   background: linear-gradient(#377771,#91a768);
   border-radius: 10px;
   width: 200px;
@@ -201,6 +202,7 @@ img#haloinfinite {
 }
 
 img#nomanssky {
+  padding: 10px;
   border-radius: 10px;
   background: linear-gradient(#377771,#91a768);
   width: 200px;
@@ -209,6 +211,7 @@ img#nomanssky {
 }
 
 img#asc {
+  padding: 10px;
   border-radius: 10px;
   background: linear-gradient(#377771,#91a768);
   width: 200px;
@@ -217,6 +220,7 @@ img#asc {
 }
 
 img#rdd2 {
+  padding: 10px;
   border-radius: 10px;
   background: linear-gradient(#377771,#91a768);
   width: 200px;
