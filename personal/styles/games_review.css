@@ -141,12 +141,13 @@ ul li:hover a {
 }
 
 div#containercontent.container {
+  margin-left: -30px;
   overflow-x: hidden;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr;
   background: linear-gradient(#377771,#91a768);
-  grid-column-start: 3;
+  grid-column-start: 2;
   border-radius: 10px;
   align-items: center;
   margin-top: 20px;
@@ -282,6 +283,16 @@ p#rdd2 {
   z-index: 3;
 }
 
+div#imagescontainer {
+  background: linear-gradient(#377771,#91a768);
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: -300px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  animation: float 3s ease-in-out infinite;
+}
+
 /* The device with borders */
 .smartphone {
   position: relative;
@@ -328,3 +339,4 @@ p#rdd2 {
   height: 640px;
   background: white;
 }
+
