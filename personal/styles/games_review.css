@@ -60,7 +60,7 @@ img.logo {
 
 div.nav {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
     grid-row-start: 2;
     grid-column-end: 1;
     position: fixed;
@@ -141,6 +141,7 @@ ul li:hover a {
 }
 
 div#containercontent.container {
+  overflow-x: hidden;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr;
@@ -148,7 +149,9 @@ div#containercontent.container {
   grid-column-start: 3;
   border-radius: 10px;
   align-items: center;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  animation: float 3s ease-in-out infinite;
 }
 
 div#eldenring {
@@ -222,9 +225,42 @@ img#rdd2 {
 }
 
 h2#eldenring {
-  grid-column-start: 2;
+  text-align: center;
+}
+p#eldenring {
+  text-align: justify;
 }
 
+h2#haloinfinite {
+  text-align: center;
+}
+p#haloinfinite {
+  text-align: justify;
+}
+
+
+h2#nomanssky {
+  text-align: center;
+}
+p#nomanssky {
+  text-align: justify;
+}
+
+
+h2#asc {
+  text-align: center;
+}
+p#asc {
+  text-align: justify;
+}
+
+
+h2#rdd2 {
+  text-align: center;
+}
+p#rdd2 {
+  text-align: justify;
+}
 /* Footer and Media Screen */
 .footer {
     position: fixed;
