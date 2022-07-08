@@ -409,6 +409,11 @@ a.asassinscreedval:hover {
     
 }
 
+div#eldenringgameplay {
+    width: 200px;
+    height: auto;
+}
+
 .footer {
     position: fixed;
   left: 0;

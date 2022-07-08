@@ -150,6 +150,7 @@ div#containercontent.container {
   grid-column-start: 2;
   border-radius: 10px;
   align-items: center;
+  justify-items: center;
   margin-top: 20px;
   margin-bottom: 50px;
   animation: float 3s ease-in-out infinite;
@@ -267,6 +268,14 @@ p#rdd2 {
   text-align: justify;
 }
 
+span {
+  animation: float 3s ease-in-out infinite;
+  border: none 1px;
+  border-radius: 100px;
+  margin: 20px;
+  margin-top: 30px;
+}
+
 .checked {
   color: orange;
 }
@@ -284,6 +293,9 @@ p#rdd2 {
 }
 
 div#imagescontainer {
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   background: linear-gradient(#377771,#91a768);
   margin-top: 20px;
   margin-left: 10px;
@@ -291,6 +303,22 @@ div#imagescontainer {
   border-radius: 10px;
   margin-bottom: 50px;
   animation: float 3s ease-in-out infinite;
+  padding: 10px;
+}
+
+img#ERgame1 {
+  width: 200px;
+  height: auto;
+}
+
+img#ERgame2 {
+  width: 200px;
+  height: auto;
+}
+
+img#ERgame3 {
+  width: 200px;
+  height: auto;
 }
 
 /* The device with borders */
